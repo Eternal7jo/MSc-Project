@@ -1,0 +1,182 @@
+2021-07-25 21:22:47,418 - INFO - {'lang': 'python', 'model': 'transformer', 'load': False, 'code_max_length': 200, 'desc_max_length': 30, 'vocab_max_size': 10000, 'vocab_min_freq': 10, 'bpe_pct': 0.5, 'batch_size': 512, 'emb_dim': 128, 'hid_dim': 256, 'n_layers_lstm': 1, 'n_layers_trans': 3, 'n_heads': 8, 'bidirectional': True, 'word_Embedding': False, 'dropout': 0.1, 'pool_mode': 'weighted_mean', 'loss': 'softmax', 'lr': 0.0005, 'n_epochs': 150, 'patience': 10, 'grad_clip': 1.0, 'seed': 1, 'save_model': True, 'device': 'cuda', 'log_path': 'ret_runs/python-2021-07-25_21-22.log'}
+2021-07-25 21:22:47,421 - INFO - using device:cuda
+2021-07-25 21:23:42,935 - INFO - 412,178 training examples
+2021-07-25 21:23:42,935 - INFO - 23,107 valid examples
+2021-07-25 21:23:42,935 - INFO - 22,176 test examples
+2021-07-25 21:23:42,935 - INFO - Code vocab size: 8,830
+2021-07-25 21:23:42,935 - INFO - Description vocab size: 9,060
+2021-07-25 21:23:48,514 - INFO - Code Encoder parameters: 1,559,936
+2021-07-25 21:23:48,514 - INFO - Desc Encoder parameters: 1,589,376
+2021-07-25 21:23:48,515 - INFO - Code Pooler parameters: 128
+2021-07-25 21:23:48,515 - INFO - Desc Pooler parameters: 128
+2021-07-25 21:26:56,120 - INFO - Epoch: 01
+2021-07-25 21:26:56,121 - INFO - 	Train Loss: 4.277, Train MRR: 0.260
+2021-07-25 21:26:56,121 - INFO - 	 Val. Loss: 4.122, Valid MRR: 0.282
+2021-07-25 21:30:04,100 - INFO - Epoch: 02
+2021-07-25 21:30:04,101 - INFO - 	Train Loss: 2.705, Train MRR: 0.527
+2021-07-25 21:30:04,102 - INFO - 	 Val. Loss: 3.472, Valid MRR: 0.400
+2021-07-25 21:33:11,980 - INFO - Epoch: 03
+2021-07-25 21:33:11,980 - INFO - 	Train Loss: 2.003, Train MRR: 0.653
+2021-07-25 21:33:11,980 - INFO - 	 Val. Loss: 3.230, Valid MRR: 0.458
+2021-07-25 21:36:18,267 - INFO - Epoch: 04
+2021-07-25 21:36:18,267 - INFO - 	Train Loss: 1.587, Train MRR: 0.725
+2021-07-25 21:36:18,267 - INFO - 	 Val. Loss: 3.060, Valid MRR: 0.491
+2021-07-25 21:39:25,621 - INFO - Epoch: 05
+2021-07-25 21:39:25,621 - INFO - 	Train Loss: 1.319, Train MRR: 0.771
+2021-07-25 21:39:25,621 - INFO - 	 Val. Loss: 2.911, Valid MRR: 0.514
+2021-07-25 21:42:33,934 - INFO - Epoch: 06
+2021-07-25 21:42:33,934 - INFO - 	Train Loss: 1.128, Train MRR: 0.803
+2021-07-25 21:42:33,934 - INFO - 	 Val. Loss: 2.878, Valid MRR: 0.527
+2021-07-25 21:45:40,630 - INFO - Epoch: 07
+2021-07-25 21:45:40,631 - INFO - 	Train Loss: 0.989, Train MRR: 0.827
+2021-07-25 21:45:40,631 - INFO - 	 Val. Loss: 2.886, Valid MRR: 0.539
+2021-07-25 21:48:48,992 - INFO - Epoch: 08
+2021-07-25 21:48:48,993 - INFO - 	Train Loss: 0.880, Train MRR: 0.845
+2021-07-25 21:48:48,993 - INFO - 	 Val. Loss: 2.852, Valid MRR: 0.545
+2021-07-25 21:51:55,891 - INFO - Epoch: 09
+2021-07-25 21:51:55,891 - INFO - 	Train Loss: 0.793, Train MRR: 0.860
+2021-07-25 21:51:55,891 - INFO - 	 Val. Loss: 2.982, Valid MRR: 0.548
+2021-07-25 21:55:04,069 - INFO - Epoch: 10
+2021-07-25 21:55:04,069 - INFO - 	Train Loss: 0.721, Train MRR: 0.872
+2021-07-25 21:55:04,069 - INFO - 	 Val. Loss: 2.925, Valid MRR: 0.550
+2021-07-25 21:58:12,341 - INFO - Epoch: 11
+2021-07-25 21:58:12,342 - INFO - 	Train Loss: 0.659, Train MRR: 0.883
+2021-07-25 21:58:12,342 - INFO - 	 Val. Loss: 3.004, Valid MRR: 0.551
+2021-07-25 22:01:26,684 - INFO - Epoch: 12
+2021-07-25 22:01:26,684 - INFO - 	Train Loss: 0.606, Train MRR: 0.892
+2021-07-25 22:01:26,684 - INFO - 	 Val. Loss: 3.070, Valid MRR: 0.558
+2021-07-25 22:04:41,524 - INFO - Epoch: 13
+2021-07-25 22:04:41,524 - INFO - 	Train Loss: 0.562, Train MRR: 0.900
+2021-07-25 22:04:41,524 - INFO - 	 Val. Loss: 3.029, Valid MRR: 0.561
+2021-07-25 22:07:56,394 - INFO - Epoch: 14
+2021-07-25 22:07:56,395 - INFO - 	Train Loss: 0.523, Train MRR: 0.906
+2021-07-25 22:07:56,395 - INFO - 	 Val. Loss: 3.095, Valid MRR: 0.562
+2021-07-25 22:11:10,811 - INFO - Epoch: 15
+2021-07-25 22:11:10,811 - INFO - 	Train Loss: 0.491, Train MRR: 0.912
+2021-07-25 22:11:10,811 - INFO - 	 Val. Loss: 3.087, Valid MRR: 0.566
+2021-07-25 22:14:24,339 - INFO - Epoch: 16
+2021-07-25 22:14:24,339 - INFO - 	Train Loss: 0.461, Train MRR: 0.917
+2021-07-25 22:14:24,339 - INFO - 	 Val. Loss: 3.247, Valid MRR: 0.566
+2021-07-25 22:17:38,655 - INFO - Epoch: 17
+2021-07-25 22:17:38,656 - INFO - 	Train Loss: 0.436, Train MRR: 0.921
+2021-07-25 22:17:38,656 - INFO - 	 Val. Loss: 3.212, Valid MRR: 0.565
+2021-07-25 22:20:53,556 - INFO - Epoch: 18
+2021-07-25 22:20:53,557 - INFO - 	Train Loss: 0.412, Train MRR: 0.926
+2021-07-25 22:20:53,557 - INFO - 	 Val. Loss: 3.239, Valid MRR: 0.569
+2021-07-25 22:24:07,597 - INFO - Epoch: 19
+2021-07-25 22:24:07,598 - INFO - 	Train Loss: 0.390, Train MRR: 0.930
+2021-07-25 22:24:07,598 - INFO - 	 Val. Loss: 3.287, Valid MRR: 0.568
+2021-07-25 22:27:21,009 - INFO - Epoch: 20
+2021-07-25 22:27:21,010 - INFO - 	Train Loss: 0.371, Train MRR: 0.933
+2021-07-25 22:27:21,010 - INFO - 	 Val. Loss: 3.225, Valid MRR: 0.567
+2021-07-25 22:30:35,634 - INFO - Epoch: 21
+2021-07-25 22:30:35,634 - INFO - 	Train Loss: 0.355, Train MRR: 0.936
+2021-07-25 22:30:35,635 - INFO - 	 Val. Loss: 3.330, Valid MRR: 0.570
+2021-07-25 22:33:50,818 - INFO - Epoch: 22
+2021-07-25 22:33:50,819 - INFO - 	Train Loss: 0.340, Train MRR: 0.938
+2021-07-25 22:33:50,819 - INFO - 	 Val. Loss: 3.247, Valid MRR: 0.570
+2021-07-25 22:37:05,401 - INFO - Epoch: 23
+2021-07-25 22:37:05,402 - INFO - 	Train Loss: 0.326, Train MRR: 0.941
+2021-07-25 22:37:05,402 - INFO - 	 Val. Loss: 3.394, Valid MRR: 0.570
+2021-07-25 22:40:20,235 - INFO - Epoch: 24
+2021-07-25 22:40:20,236 - INFO - 	Train Loss: 0.315, Train MRR: 0.943
+2021-07-25 22:40:20,236 - INFO - 	 Val. Loss: 3.327, Valid MRR: 0.570
+2021-07-25 22:43:35,358 - INFO - Epoch: 25
+2021-07-25 22:43:35,359 - INFO - 	Train Loss: 0.303, Train MRR: 0.945
+2021-07-25 22:43:35,359 - INFO - 	 Val. Loss: 3.376, Valid MRR: 0.573
+2021-07-25 22:46:50,470 - INFO - Epoch: 26
+2021-07-25 22:46:50,471 - INFO - 	Train Loss: 0.292, Train MRR: 0.947
+2021-07-25 22:46:50,471 - INFO - 	 Val. Loss: 3.401, Valid MRR: 0.573
+2021-07-25 22:50:04,563 - INFO - Epoch: 27
+2021-07-25 22:50:04,563 - INFO - 	Train Loss: 0.283, Train MRR: 0.949
+2021-07-25 22:50:04,564 - INFO - 	 Val. Loss: 3.406, Valid MRR: 0.573
+2021-07-25 22:53:17,829 - INFO - Epoch: 28
+2021-07-25 22:53:17,830 - INFO - 	Train Loss: 0.274, Train MRR: 0.950
+2021-07-25 22:53:17,830 - INFO - 	 Val. Loss: 3.500, Valid MRR: 0.573
+2021-07-25 22:56:31,560 - INFO - Epoch: 29
+2021-07-25 22:56:31,560 - INFO - 	Train Loss: 0.265, Train MRR: 0.952
+2021-07-25 22:56:31,560 - INFO - 	 Val. Loss: 3.561, Valid MRR: 0.575
+2021-07-25 22:59:46,081 - INFO - Epoch: 30
+2021-07-25 22:59:46,081 - INFO - 	Train Loss: 0.260, Train MRR: 0.953
+2021-07-25 22:59:46,082 - INFO - 	 Val. Loss: 3.567, Valid MRR: 0.573
+2021-07-25 23:03:00,208 - INFO - Epoch: 31
+2021-07-25 23:03:00,208 - INFO - 	Train Loss: 0.250, Train MRR: 0.955
+2021-07-25 23:03:00,208 - INFO - 	 Val. Loss: 3.586, Valid MRR: 0.577
+2021-07-25 23:06:14,578 - INFO - Epoch: 32
+2021-07-25 23:06:14,579 - INFO - 	Train Loss: 0.245, Train MRR: 0.956
+2021-07-25 23:06:14,579 - INFO - 	 Val. Loss: 3.508, Valid MRR: 0.577
+2021-07-25 23:09:27,855 - INFO - Epoch: 33
+2021-07-25 23:09:27,856 - INFO - 	Train Loss: 0.239, Train MRR: 0.957
+2021-07-25 23:09:27,856 - INFO - 	 Val. Loss: 3.499, Valid MRR: 0.575
+2021-07-25 23:12:42,424 - INFO - Epoch: 34
+2021-07-25 23:12:42,424 - INFO - 	Train Loss: 0.232, Train MRR: 0.958
+2021-07-25 23:12:42,424 - INFO - 	 Val. Loss: 3.607, Valid MRR: 0.577
+2021-07-25 23:15:56,726 - INFO - Epoch: 35
+2021-07-25 23:15:56,726 - INFO - 	Train Loss: 0.228, Train MRR: 0.959
+2021-07-25 23:15:56,726 - INFO - 	 Val. Loss: 3.527, Valid MRR: 0.578
+2021-07-25 23:19:11,079 - INFO - Epoch: 36
+2021-07-25 23:19:11,079 - INFO - 	Train Loss: 0.222, Train MRR: 0.960
+2021-07-25 23:19:11,079 - INFO - 	 Val. Loss: 3.500, Valid MRR: 0.578
+2021-07-25 23:22:24,768 - INFO - Epoch: 37
+2021-07-25 23:22:24,769 - INFO - 	Train Loss: 0.218, Train MRR: 0.961
+2021-07-25 23:22:24,769 - INFO - 	 Val. Loss: 3.592, Valid MRR: 0.579
+2021-07-25 23:25:39,378 - INFO - Epoch: 38
+2021-07-25 23:25:39,379 - INFO - 	Train Loss: 0.211, Train MRR: 0.962
+2021-07-25 23:25:39,379 - INFO - 	 Val. Loss: 3.571, Valid MRR: 0.577
+2021-07-25 23:28:52,802 - INFO - Epoch: 39
+2021-07-25 23:28:52,803 - INFO - 	Train Loss: 0.208, Train MRR: 0.962
+2021-07-25 23:28:52,803 - INFO - 	 Val. Loss: 3.571, Valid MRR: 0.578
+2021-07-25 23:32:06,556 - INFO - Epoch: 40
+2021-07-25 23:32:06,557 - INFO - 	Train Loss: 0.205, Train MRR: 0.963
+2021-07-25 23:32:06,557 - INFO - 	 Val. Loss: 3.588, Valid MRR: 0.582
+2021-07-25 23:35:19,992 - INFO - Epoch: 41
+2021-07-25 23:35:19,993 - INFO - 	Train Loss: 0.201, Train MRR: 0.964
+2021-07-25 23:35:19,993 - INFO - 	 Val. Loss: 3.596, Valid MRR: 0.579
+2021-07-25 23:38:33,834 - INFO - Epoch: 42
+2021-07-25 23:38:33,835 - INFO - 	Train Loss: 0.197, Train MRR: 0.964
+2021-07-25 23:38:33,835 - INFO - 	 Val. Loss: 3.555, Valid MRR: 0.583
+2021-07-25 23:41:47,464 - INFO - Epoch: 43
+2021-07-25 23:41:47,465 - INFO - 	Train Loss: 0.195, Train MRR: 0.965
+2021-07-25 23:41:47,465 - INFO - 	 Val. Loss: 3.680, Valid MRR: 0.582
+2021-07-25 23:45:01,390 - INFO - Epoch: 44
+2021-07-25 23:45:01,391 - INFO - 	Train Loss: 0.190, Train MRR: 0.965
+2021-07-25 23:45:01,391 - INFO - 	 Val. Loss: 3.747, Valid MRR: 0.581
+2021-07-25 23:48:15,453 - INFO - Epoch: 45
+2021-07-25 23:48:15,454 - INFO - 	Train Loss: 0.186, Train MRR: 0.966
+2021-07-25 23:48:15,454 - INFO - 	 Val. Loss: 3.707, Valid MRR: 0.581
+2021-07-25 23:51:29,257 - INFO - Epoch: 46
+2021-07-25 23:51:29,258 - INFO - 	Train Loss: 0.181, Train MRR: 0.967
+2021-07-25 23:51:29,258 - INFO - 	 Val. Loss: 3.689, Valid MRR: 0.583
+2021-07-25 23:54:42,554 - INFO - Epoch: 47
+2021-07-25 23:54:42,555 - INFO - 	Train Loss: 0.181, Train MRR: 0.967
+2021-07-25 23:54:42,555 - INFO - 	 Val. Loss: 3.642, Valid MRR: 0.584
+2021-07-25 23:57:56,984 - INFO - Epoch: 48
+2021-07-25 23:57:56,985 - INFO - 	Train Loss: 0.178, Train MRR: 0.968
+2021-07-25 23:57:56,985 - INFO - 	 Val. Loss: 3.704, Valid MRR: 0.584
+2021-07-26 00:01:10,701 - INFO - Epoch: 49
+2021-07-26 00:01:10,702 - INFO - 	Train Loss: 0.176, Train MRR: 0.968
+2021-07-26 00:01:10,702 - INFO - 	 Val. Loss: 3.673, Valid MRR: 0.583
+2021-07-26 00:04:24,338 - INFO - Epoch: 50
+2021-07-26 00:04:24,339 - INFO - 	Train Loss: 0.173, Train MRR: 0.969
+2021-07-26 00:04:24,339 - INFO - 	 Val. Loss: 3.724, Valid MRR: 0.582
+2021-07-26 00:07:37,345 - INFO - Epoch: 51
+2021-07-26 00:07:37,345 - INFO - 	Train Loss: 0.172, Train MRR: 0.969
+2021-07-26 00:07:37,346 - INFO - 	 Val. Loss: 3.632, Valid MRR: 0.581
+2021-07-26 00:10:51,283 - INFO - Epoch: 52
+2021-07-26 00:10:51,284 - INFO - 	Train Loss: 0.169, Train MRR: 0.970
+2021-07-26 00:10:51,284 - INFO - 	 Val. Loss: 3.724, Valid MRR: 0.582
+2021-07-26 00:14:04,925 - INFO - Epoch: 53
+2021-07-26 00:14:04,926 - INFO - 	Train Loss: 0.166, Train MRR: 0.970
+2021-07-26 00:14:04,926 - INFO - 	 Val. Loss: 3.754, Valid MRR: 0.580
+2021-07-26 00:17:18,158 - INFO - Epoch: 54
+2021-07-26 00:17:18,159 - INFO - 	Train Loss: 0.163, Train MRR: 0.970
+2021-07-26 00:17:18,159 - INFO - 	 Val. Loss: 3.705, Valid MRR: 0.584
+2021-07-26 00:20:31,627 - INFO - Epoch: 55
+2021-07-26 00:20:31,628 - INFO - 	Train Loss: 0.163, Train MRR: 0.970
+2021-07-26 00:20:31,628 - INFO - 	 Val. Loss: 3.816, Valid MRR: 0.583
+2021-07-26 00:23:45,425 - INFO - Epoch: 56
+2021-07-26 00:23:45,425 - INFO - 	Train Loss: 0.159, Train MRR: 0.971
+2021-07-26 00:23:45,425 - INFO - 	 Val. Loss: 3.686, Valid MRR: 0.585
+2021-07-26 00:26:59,909 - INFO - Epoch: 57
+2021-07-26 00:26:59,909 - INFO - 	Train Loss: 0.159, Train MRR: 0.971
+2021-07-26 00:26:59,909 - INFO - 	 Val. Loss: 3.725, Valid MRR: 0.582
