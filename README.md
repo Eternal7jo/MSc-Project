@@ -11,8 +11,10 @@ Train:
 
 Prediction.py
 1. python main_method_prediction.py --lang python --model transformer --seed 1
-2. python main_method_prediction.py --lang python --model lstm--seed 1
+2. python main_method_prediction.py --lang python --model lstm --seed 1
+
 
 Evaluation:
 Python --lang python --model lstm --seed 2 --load
+
 Python --lang python --model transformer --seed 2 --load
