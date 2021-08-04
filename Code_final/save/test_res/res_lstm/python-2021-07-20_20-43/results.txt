@@ -1,0 +1,2 @@
+train_loss	train_mrr	valid_loss	valid_mrr
+11.673394970510198	0.059871405363082886

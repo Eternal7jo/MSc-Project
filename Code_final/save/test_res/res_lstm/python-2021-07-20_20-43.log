@@ -1,0 +1,13 @@
+2021-07-20 20:43:28,459 - INFO - {'lang': 'python', 'model': 'lstm', 'load': True, 'code_max_length': 200, 'desc_max_length': 30, 'vocab_max_size': 10000, 'vocab_min_freq': 10, 'bpe_pct': 0.5, 'batch_size': 256, 'emb_dim': 128, 'hid_dim': 256, 'n_layers_lstm': 1, 'n_layers_trans': 3, 'n_heads': 8, 'bidirectional': True, 'word_Embedding': False, 'dropout': 0.1, 'pool_mode': 'weighted_mean', 'loss': 'softmax', 'seed': 1, 'save_model': False, 'device': 'cpu', 'log_path': 'ret_runs/python-2021-07-20_20-43.log'}
+2021-07-20 20:43:28,460 - INFO - using device:cpu
+2021-07-20 20:43:52,511 - INFO - 22,176 test examples
+2021-07-20 20:43:52,511 - INFO - Code vocab size: 8,830
+2021-07-20 20:43:52,511 - INFO - Description vocab size: 9,060
+2021-07-20 20:43:52,590 - INFO - LSTM(128, 256, dropout=0.1, bidirectional=True)
+2021-07-20 20:43:52,667 - INFO - LSTM(128, 256, dropout=0.1, bidirectional=True)
+2021-07-20 20:43:52,668 - INFO - Code Encoder parameters: 1,986,432
+2021-07-20 20:43:52,668 - INFO - Desc Encoder parameters: 2,015,872
+2021-07-20 20:43:52,668 - INFO - Code Pooler parameters: 128
+2021-07-20 20:43:52,668 - INFO - Desc Pooler parameters: 128
+2021-07-20 20:45:35,563 - INFO - 	Test Loss: 11.673, Test MRR: 0.060
+2021-07-20 20:45:35,564 - INFO - Done!
