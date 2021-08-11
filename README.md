@@ -1,6 +1,6 @@
 # MSc-Project
-# Zizhuo Wang  University of Leeds  UID: 201406070
-
+### Zizhuo Wang   University of Leeds   UID: 201406070
+### Please run the Code_final.
 Data preprocess:
 1. Python download_data.py
 2. python bpe.py --lang python--vocab_max_size 10000 --bpe_pct 0.5
