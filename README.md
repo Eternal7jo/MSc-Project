@@ -1,4 +1,5 @@
 # MSc-Project
+# Zizhuo Wang  University of Leeds  UID: 201406070
 
 Data preprocess:
 1. Python download_data.py
@@ -15,6 +16,5 @@ Prediction.py
 
 
 Evaluation:
-Python --lang python --model lstm --seed 2 --load
-
-Python --lang python --model transformer --seed 2 --load
+1. Python --lang python --model lstm --seed 2 --load
+2. Python --lang python --model transformer --seed 2 --load
